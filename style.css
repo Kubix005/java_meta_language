@@ -1,5 +1,14 @@
 #box1{
+    display: flex;
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-image: radial-gradient(orange,yellow);
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    color:black;
+}
+*{
+    background-color: #808;
 }
