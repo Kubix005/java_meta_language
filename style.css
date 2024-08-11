@@ -3,12 +3,22 @@
     width: 100px;
     height: 100px;
     background-image: radial-gradient(orange,yellow);
-    border-radius: 10%;
+    border-radius: 0 0% 50% 0%;
     align-items: center;
     justify-content: center;
     font-family: monospace;
     color:black;
+    border:1px solid black;
 }
 *{
-    background-color: #808;
+    margin:0;
+    padding:0;
+}
+body{
+    height: 875px;
+    width: 99%;
+    background-color: #AA6C39;
+}
+abbr{
+    text-decoration: none;
 }
